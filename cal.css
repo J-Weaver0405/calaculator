@@ -1,0 +1,107 @@
+body{
+font-family: sans-serif;
+background-color: #080808;
+}
+
+#calculator {
+height: 440px;
+width: 300px;
+margin-top: 10%;
+margin-left: auto;
+margin-right: auto;
+background-color: #0b30d4;
+border: 2px solid #020202;
+border-radius: 20px;
+box-shadow: 7px 10px 34px 1px rgba(248, 2, 2, 0.68), inset -1px -6px 12px 0.1px #89847E;
+}
+
+#title {
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: center;
+}
+
+#entrybox {
+width: 90%;
+height: 80px;
+margin-left: auto;
+margin-right: auto;
+border: 2px solid #B4B39D;
+border-radius: 6px;
+background-color: #C3C2AB;
+}
+
+#entry {
+margin-right: 10px;
+font-size: 35px;
+text-align:right;
+}
+
+#buttons {
+font-size: 16px;
+font-weight: bold;
+color: rgba(240, 217, 16, 0.979);
+position: absolute;
+display: inline-block;
+width: 280px;
+height: auto;
+margin-top: 15px;
+margin-left: 15px;
+}
+
+button {
+border-radius: 8px;
+border: none;
+background-color: #f7f2f2;
+margin: 0 4px 10px 8px;
+height: 40px;
+width: 50px;
+box-shadow: 0px 3px 0px 0px #616060, inset -1px -3px 10px 1px #515151;
+}
+
+button:active {
+transform: translate(0px, 3px);
+box-shadow: none;
+}
+
+.row {
+margin-top: 20px
+}
+
+#topAdjust {
+margin-top: -52px;
+}
+
+#equalButton {
+position: absolute;
+margin-left: 12px;
+margin-top: -50px;
+height: 90px;
+}
+
+#zeroButton {
+width: 117px;
+}
+
+.red {
+font-size: 14px;
+background-color: #f00c3a;
+box-shadow: 0px 3px 0px 0px #671C2A;
+}
+
+button,
+button:hover,
+button:active,
+button:visited {
+text-decoration: none !important;
+outline: none !important;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+color: #922031;
+text-decoration: none !important;
+outline: none !important;
+}
